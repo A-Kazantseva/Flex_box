@@ -1,0 +1,94 @@
+
+.site-header {
+    height: 80px;
+    background: #ccc;
+    width: 40%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    border-bottom: 15px solid ghostwhite;
+    padding-top: 40px;
+}
+
+.site-footer {
+    height: 50px;
+    background: #ccc;
+    width: 40%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border-top: 15px solid ghostwhite;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.container {
+    display: flex;
+    height: 510px;
+    background-color: darkblue;
+    width: 39.3%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-grow:1;
+    border: 4px solid darkblue;
+}
+
+.box {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+
+}
+
+.box:nth-child(1)
+{
+    width: 93%;
+    height: 15%;
+    background-color: coral;
+    padding-top: 20px;
+}
+
+.box:nth-child(2)
+{
+    width: 93%;
+    height: 15%;
+    background-color: blueviolet;
+    padding-top: 20px;
+
+}
+.box:nth-child(3)
+{
+    width: 93%;
+    height: 15%;
+    background-color: red;
+    padding-top: 20px;
+
+}
+.box:nth-child(4)
+{
+    width: 93%;
+    height: 15%;
+    background-color: aqua;
+    padding-top: 20px;
+
+}
+.box:nth-child(5)
+{
+    width: 93%;
+    height: 15%;
+    background-color: blue;
+    padding-top: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,93 @@
+
+.site-header {
+    height: 100px;
+    background: #ccc;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    border-bottom: 15px solid ghostwhite;
+    padding-top: 30px;
+}
+
+.site-footer {
+    height: 80px;
+    background: #ccc;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border-top: 15px solid ghostwhite;
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+    background-color: darkblue;
+    width: 98.5%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-grow:1;
+    border: 10px solid darkblue;
+}
+
+.box {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+
+}
+
+.box:nth-child(1)
+{
+    width: 33%;
+    height: 34%;
+    background-color: coral;
+    padding-top: 20px;
+}
+
+.box:nth-child(2)
+{
+    width: 33%;
+    height: 34%;
+    background-color: blueviolet;
+    padding-top: 20px;
+}
+
+.box:nth-child(3)
+{
+    width: 33%;
+    height: 34%;
+    background-color: red;
+    padding-top: 20px;
+}
+
+.box:nth-child(4)
+{
+    width: 49.5%;
+    height: 34%;
+    background-color: aqua;
+    padding-top: 20px;
+}
+
+.box:nth-child(5)
+{
+    width: 49.5%;
+    height: 34%;
+    background-color: blue;
+    padding-top: 20px;
+}
+
+
+
+
+
